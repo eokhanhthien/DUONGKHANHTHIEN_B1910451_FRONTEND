@@ -7,7 +7,8 @@ export default {
     methods: {
         updateModelValue(e) {
             this.$emit("update:modelValue", e.target.value);
-        }, submit() {
+        },
+        submit() {
             this.$emit("submit");
         },
     },
